@@ -1,3 +1,14 @@
-﻿node_modules
-dist
+﻿# Frontend
+node_modules/
+dist/
+
+# Backend
+backend/venv/
+backend/static/meshes/
+backend/__pycache__/
+backend/*.pyc
+backend/model/unet_weights.h5
+
+# General
 .env
+.DS_Store
